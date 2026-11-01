@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "io.github.geektao1024/cropden",
+  "title": "CropDen: image sizes and AI image tools",
+  "description": "Platform image sizes with safe zones (free), plus AI extend, upscale and background removal.",
+  "version": "1.0.0",
+  "websiteUrl": "https://cropden.com",
+  "repository": {
+    "url": "https://github.com/geektao1024/social-media-image-sizes",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cropden.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <CropDen API key>. Only the AI tools need it; get_image_sizes works without.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

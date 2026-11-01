@@ -1,0 +1,49 @@
+{
+  "name": "social-media-image-sizes",
+  "version": "0.1.0",
+  "description": "Image sizes for social media, marketplaces and passport photos, with safe zones and upload limits. JSON + npm, data under CC BY 4.0.",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "require": "./index.cjs"
+    },
+    "./data/social-media-image-sizes.json": "./data/social-media-image-sizes.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "index.cjs",
+    "index.d.ts",
+    "data/",
+    "LICENSE",
+    "LICENSE-DATA.md"
+  ],
+  "sideEffects": false,
+  "keywords": [
+    "social-media-image-sizes",
+    "image-sizes",
+    "safe-zone",
+    "instagram",
+    "youtube",
+    "tiktok",
+    "discord",
+    "passport-photo",
+    "crop",
+    "resize",
+    "dataset",
+    "json"
+  ],
+  "homepage": "https://cropden.com/social-media-image-sizes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geektao1024/social-media-image-sizes.git"
+  },
+  "bugs": "https://github.com/geektao1024/social-media-image-sizes/issues",
+  "author": "CropDen (https://cropden.com)",
+  "license": "(MIT AND CC-BY-4.0)"
+}

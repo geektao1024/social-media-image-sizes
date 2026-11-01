@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "social-media-image-sizes-skill",
+  "type": "module",
+  "description": "Dependencies for scripts/fit.mjs. Run `npm install` here once.",
+  "dependencies": {
+    "sharp": "^0.35.5"
+  }
+}
