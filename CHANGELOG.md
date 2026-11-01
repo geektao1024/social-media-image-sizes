@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 (unreleased)
+## 0.1.0 (2026-11-02)
 
 First release, exported from the size catalog behind [cropden.com](https://cropden.com).
 
